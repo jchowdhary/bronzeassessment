@@ -41,7 +41,7 @@ Note: We use `pip` inside the conda env to install the exact packages listed. If
 
 ## 4. Run the notebooks
 
-You can run the notebooks interactively with Jupyter Notebook or JupyterLab, or execute them non-interactively.
+You can run the notebooks interactively with Jupyter Notebook or JupyterLab, or execute them non-interactively. You can also download Jupyter extension and execute it within VS Code.
 
 Interactive (recommended):
 
@@ -54,29 +54,8 @@ jupyter notebook
 
 Then open the notebook files located in `bronzeLayer/` (for example `bronzeLayer/neuralnetwork_with_kerastensorflow.ipynb`) and run the cells.
 
-Non-interactive (run and save outputs):
-
-```bash
-# install nbconvert if not already present
-pip install nbconvert
-
-# run a notebook and overwrite it with the executed version
-jupyter nbconvert --to notebook --execute bronzeLayer/neuralnetwork_with_kerastensorflow.ipynb --output bronzeLayer/neuralnetwork_with_kerastensorflow_executed.ipynb
-```
-
-Repeat the above `nbconvert` command for each notebook you want to execute. Adjust filenames as needed.
 
 ## 5. Notes and tips
 - The dataset files are under `bronzeLayer/dataset/`.
-- Some notebooks save model files (for example `diabetes_prediction_model.h5`) into the repo; be careful not to overwrite important files.
+- Assessment Questions are saved as `bronzeLayer/assessmentquestions.txt/`.
 - If you run into package version issues, try creating the environment with a specific Python version and install compatible package versions.
-- To export environment packages for reproducibility:
-
-```bash
-pip freeze > requirements_freeze.txt
-# or for conda
-conda env export > environment.yml
-```
-
-## 6. Contact / Licence
-This repo is for learning/demonstration. Adapt and reuse as needed.
