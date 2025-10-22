@@ -1,0 +1,15 @@
+
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+jupyterlab
+xgboost
+plotly
+ipython
+python-dotenv
+tensorflow
+keras
+joblib
+scipy
