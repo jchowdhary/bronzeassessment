@@ -1,0 +1,10 @@
+Gold badge Questions
+--------------------------
+implement fine tuning using an LLM that is used by all like Mistral or Claude with a small dataset for a chosen task
+ 
+implement transfer learning using an LLM that is used by all like Mistral or Claude with a small dataset for a chosen task
+ 
+perform training of an LLM built from scratch using transformer library which is of reasonably sized using a suitable dataset such as Wikipedia text and test the LLM
+ 
+Implement QLoRA fine tuning of a model from scratch preferably a commercial LLM like mistral or Claude
+Do all of the above four questions for getting Gold badge

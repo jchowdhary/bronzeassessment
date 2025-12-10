@@ -1,17 +1,43 @@
+# Bronze - use hclenv venv
 
-scikit-learn
-pandas
-numpy
-matplotlib
-seaborn
-jupyterlab
-xgboost
-plotly
-ipython
+# scikit-learn
+# pandas
+# numpy
+# matplotlib
+# seaborn
+# jupyterlab
+# xgboost
+# plotly
+# ipython
+# python-dotenv
+# tensorflow
+# keras
+# joblib
+# scipy
+# pydot
+# graphviz
+# langchain
+# chromadb
+# pypdf
+# langchain-groq
+# langchain-community
+# sentence-transformers
+# # Create ChromaDB vector store
+
+# Silver - use llms  venv
+langchain
+langchain-core
+langchain-openai
+langchain-groq
+langchain-community
+pydantic
 python-dotenv
-tensorflow
-keras
-joblib
-scipy
-pydot
-graphviz
+faiss-cpu
+tiktoken
+chromadb
+sentence-transformers
+pypdf
+ipykernel
+pandas
+pymupdf
+langchain_huggingface
