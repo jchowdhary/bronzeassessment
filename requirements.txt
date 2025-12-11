@@ -41,3 +41,8 @@ ipykernel
 pandas
 pymupdf
 langchain_huggingface
+torch
+torchaudio
+torchcodec
+scipy
+scikit-learn
