@@ -46,3 +46,5 @@ torchaudio
 torchcodec
 scipy
 scikit-learn
+twilio
+tweepy
