@@ -29,6 +29,9 @@ langchain
 langchain-core
 langchain-openai
 langchain-groq
+langchain_google_genai
+google-generativeai 
+google-auth
 langchain-community
 pydantic
 python-dotenv
@@ -48,3 +51,4 @@ scipy
 scikit-learn
 twilio
 tweepy
+sendgrid
