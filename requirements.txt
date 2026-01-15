@@ -25,30 +25,120 @@
 # # Create ChromaDB vector store
 
 # Silver - use llms  venv
-langchain
-langchain-core
-langchain-openai
-langchain-groq
-langchain_google_genai
-google-generativeai 
-google-auth
-langchain-community
-pydantic
-python-dotenv
-faiss-cpu
-tiktoken
-chromadb
-sentence-transformers
-pypdf
-ipykernel
-pandas
-pymupdf
-langchain_huggingface
-torch
-torchaudio
-torchcodec
+# langchain
+# langchain-core
+# #langchain-openai
+# langchain-groq
+# langchain_google_genai
+# google-generativeai 
+# google-auth
+# langchain-community
+# pydantic
+# python-dotenv
+# faiss-cpu
+# tiktoken
+# chromadb
+# sentence-transformers
+# pypdf
+# ipykernel
+# pandas
+# pymupdf
+# langchain_huggingface
+# torch
+# torchaudio
+# torchcodec
+# scipy
+# scikit-learn
+# twilio
+# tweepy
+# sendgrid
+# pymongo
+# For Python 3.10 or 3.11 (Recommended)
+# Speech-to-Speech Translator Dependencies
+# Core speech recognition
+# SpeechRecognition==3.10.4
+# PyAudio==0.2.14
+
+# # Translation
+# googletrans==4.0.0-rc1
+
+# # Text-to-Speech
+# gTTS==2.5.1
+
+# # Audio processing
+# pydub==0.25.1
+
+# # Jupyter widgets for interactive UI
+# ipywidgets==8.1.2
+
+
+# # IPython for display
+# IPython>=8.0.0
+
+# GenAI Speech-to-Speech Translator Dependencies
+# Optimized for Python 3.10 or 3.11
+# Supports: Groq (Llama) + Google Gemini
+
+# ============================================
+# Speech Recognition - OpenAI Whisper
+# ============================================
+openai-whisper
+
+# ============================================
+# LLM Backends
+# ============================================
+# Groq - Ultra-fast Llama inference (FREE tier available)
+groq
+
+# Google Gemini (FREE tier available)
+google-generativeai
+httpx
+
+
+
+# Optional: OpenAI (if you want to add later)
+# openai>=1.12.0
+
+# Optional: Anthropic Claude (if you want to add later)
+# anthropic>=0.18.0
+
+# ============================================
+# Text-to-Speech
+# ============================================
+# Edge TTS (Free, high-quality Microsoft voices)
+edge-tts
+
+# Google Text-to-Speech (alternative, also free)
+gTTS
+
+# ============================================
+# Audio Processing
+# ============================================
+pydub
+soundfile
+numpy
 scipy
-scikit-learn
-twilio
-tweepy
-sendgrid
+
+# For microphone input
+SpeechRecognition
+PyAudio
+
+# ============================================
+# Jupyter & UI
+# ============================================
+ipywidgets
+# jupyterlab>=4.0.0
+# notebook>=7.0.0
+IPython
+
+# ============================================
+# Async support for Edge TTS
+# ============================================
+nest-asyncio
+
+# ============================================
+# Utilities
+# ============================================
+python-dotenv
+rich
+
